@@ -1,24 +1,40 @@
 // Importeer express uit de node_modules map
 import express from 'express'
-
 // Maak een nieuwe express app aan
 const app = express()
 
+const url = ('https://whois.fdnd.nl/api/v1/member/maaike-verplancke')
+const data = await fetch (url).then((response) => response.json())
+// console.log(data)
+
+
 // Stel ejs in als template engine en geef de 'views' map door
 app.set('view engine', 'ejs')
-app.set('views', './views')
-
+app.set('views','./views')
 // Gebruik de map 'public' voor statische resources
 app.use(express.static('public'))
 
 // Maak een route voor de index
 app.get('/', function (req, res) {
   // res.send('Hello World!')
-  res.render('index')
+  res.render('index', data)
 })
+app.get('/test', function (req, res) {
+  // res.send('Hello World!')
+  res.render('pages/test', data)
+})
+// app.get('/persoonlijke', function (req, res) {
+//   res.send('Hello World!')
+//   res.render('persoonlijk')
+// })
+
+// app.get('/zakelijk', function (req, res) {
+//   res.send('Hello World!')
+//   res.render('zakelijk')
+// })
 
 // Stel het poortnummer in waar express op gaat luisteren
-app.set('port', process.env.PORT || 8000)
+app.set('port', process.env.PORT || 8001)
 
 // Start express op, haal het ingestelde poortnummer op
 app.listen(app.get('port'), function () {
