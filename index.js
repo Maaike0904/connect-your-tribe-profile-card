@@ -23,6 +23,7 @@ app.get('/test', function (req, res) {
   // res.send('Hello World!')
   res.render('pages/test', data)
 })
+
 // app.get('/persoonlijke', function (req, res) {
 //   res.send('Hello World!')
 //   res.render('persoonlijk')
