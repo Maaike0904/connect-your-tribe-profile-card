@@ -43,19 +43,15 @@ app.listen(app.get('port'), function () {
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
 
+
+
 // EIGEN
+// let opacityInteractie = document.querySelector('a:nth-of-type(1)')
 
-// const card = document.querySelector(".card > section")
+// opacityInteractie.addEventListener('click', show)
 
-// const root = document.documentElement;
-
-// document.addEventListener("mousemove", (e) => {
-//     const x = e.clientX - window.innerWidth / 2;
-//     const y = e.clientY - window.innerHeight / 2;
-
-
-//     root.style.setProperty('--rotateX', `${y * 0.02}deg`);
-//     root.style.setProperty('--rotateY', `${x * 0.02}deg`);
-// });
+// function show(){
+//   opacityInteractie.classList.toggle('show')
+// }
 
 
