@@ -46,6 +46,7 @@ h1 {
   font-family: helvetica;
 }
 
+
 .button {
     margin-left: 5rem;
     margin-right: auto;
@@ -80,6 +81,11 @@ h1 {
   font-style:normal;
   font-weight: 400;
   color: #fff;
+}
+
+.test{
+color: #0a0a0a;
+font-size: 2;
 }
 
 section img{

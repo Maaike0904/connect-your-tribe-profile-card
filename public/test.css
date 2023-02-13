@@ -1,4 +1,73 @@
-.test{
-color: #0a0a0a;
-font-size: 2;
+* {
+  box-sizing:border-box;
+}
+
+html {
+  height:100vh;
+  display: block;
+
+}
+
+body {
+    overflow-y: scroll;
+    min-width: 60em;
+    margin: 0 auto;
+    padding: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+main{
+      width: 20em;
+      height: 30em;
+      background: #FFE9CE;
+      background-size: cover;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 1rem;
+      border-color: #FFE9CE;
+      box-shadow: rgb(17 12 46 / 50%) 00px 10px 20px 0px    ;
+      z-index: 2;
+      transition: all 0.5s ease;
+    }
+
+    
+h1 {
+  color:#FFB5C2;
+  position:top;
+  top:0rem;
+  text-align: center;
+  font-size: 1.2em;
+  font-family:"inter";
+  padding-top: .5em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.about-me {
+    color:#3777FF;
+    text-align: left;
+    font-size: 2em;
+    font-family:"inter-bold";
+}
+
+
+
+section img{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    width: 100%;  
+    border-radius: 1rem;
+    margin-bottom: 20em;
+}
+
+style attribute {
+    --rotateX: 4.63deg;
+    --rotateY: 6.06deg;
 }
