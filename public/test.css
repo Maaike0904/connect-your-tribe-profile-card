@@ -44,20 +44,36 @@ h1 {
   font-family:"inter";
 }
 
-p{
+span{
   color:#ff0000;
   text-align: center;
   font-size: 1em;
   font-family:"inter";
 }
 
-.name-and-avatar{
+#avatar {
+  padding:2em;
+  width: 17em;
+}
+
+section img{
+    width: 100%;  
+    border-radius: 1rem;
+}
+
+.fa-github{
+  color: #ff0000;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
+
+.name-section{
   padding: 2em;
 }
 
-#avatar {
-  width: 10em;
-  height: 10em;
+style attribute {
+    --rotateX: 4.63deg;
+    --rotateY: 6.06deg;
 }
 
 /* EIGEN ANIMATIES PER WOORD */
@@ -81,24 +97,4 @@ a:nth-of-type(1){
   100% {
   opacity: 100%;
   }
-}
-
-
-section img{
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    width: 100%;  
-    border-radius: 1rem;
-    /* margin-bottom: 20em; */
-}
-
-.fa-github{
-  color: #ff0000;
-  font-size: 1.5em;
-  padding-top: 1em;
-}
-
-style attribute {
-    --rotateX: 4.63deg;
-    --rotateY: 6.06deg;
 }
