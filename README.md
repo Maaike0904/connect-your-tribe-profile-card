@@ -1,7 +1,7 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # ✨ Visitekaartje ✨
-<img width="707" alt="Scherm­afbeelding 2023-02-23 om 16 44 54" src="https://user-images.githubusercontent.com/112861144/220959627-3f8d5475-41e6-420d-869d-d8038d522c16.png">
+<img width="656" alt="Scherm­afbeelding 2023-02-23 om 17 36 40" src="https://user-images.githubusercontent.com/112861144/220971397-7c39d390-e881-4a2c-800b-c6c80421e52f.png">
 
 ## Inhoudsopgave
 
