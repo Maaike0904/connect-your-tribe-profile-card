@@ -1,7 +1,7 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# ✨ Visitekaartje ✨
+<img width="707" alt="Scherm­afbeelding 2023-02-23 om 16 44 54" src="https://user-images.githubusercontent.com/112861144/220959627-3f8d5475-41e6-420d-869d-d8038d522c16.png">
 
 ## Inhoudsopgave
 
@@ -13,20 +13,26 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Voor deze opdracht heb ik opnieuw een profile card gemaakt met Node.js, hierdoor hoef je je gegevens maar op 1 plek aan te passen.
+<br>
+<br>🌐 [Bekijk de live link !](https://helpful-puce-shark.cyclic.app/)
 
-## Kenmerken
+## 🎨 Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
-## Installatie
+* EJS
+* Node js
+* JSON
+* CSS
 
-## Gebruik
+## 📥 Installatie
 
-## Bronnen
+## 👾 Gebruik
 
-## Licentie
+## ⚓ Bronnen
+https://codepen.io/tomhodgins/pen/egWjBb
+
+## 	💯 Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
