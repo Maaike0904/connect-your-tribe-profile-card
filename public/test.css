@@ -137,6 +137,7 @@ button{
   border-radius: 10px;
   border-style: none;
   margin-bottom: .6em;
+  cursor: pointer;
 }
 
 button:hover{
