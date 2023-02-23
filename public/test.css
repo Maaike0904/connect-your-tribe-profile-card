@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     perspective: 1000px;
-    background-color: rgb(245, 178, 212);
+    background-color: rgb(254, 217, 236);
 }
 
 main{
@@ -41,6 +41,13 @@ h1 {
   top:0rem;
   text-align: center;
   font-size: 1.2em;
+  font-family:"inter";
+}
+
+p{
+  color:#ff0000;
+  text-align: center;
+  font-size: 1em;
   font-family:"inter";
 }
 
