@@ -24,7 +24,7 @@ app.get('/test', function (req, res) {
   res.render('pages/test', data)
 })
 
-app.get('/persoonlijke', function (req, res) {
+app.get('/persoonlijk', function (req, res) {
   res.send('Hello World!')
   res.render('persoonlijk')
 })
