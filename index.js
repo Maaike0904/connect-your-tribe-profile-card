@@ -24,15 +24,15 @@ app.get('/test', function (req, res) {
   res.render('pages/test', data)
 })
 
-app.get('/persoonlijk', function (req, res) {
-  res.send('Hello World!')
-  res.render('persoonlijk')
-})
+// app.get('/persoonlijk', function (req, res) {
+//   res.send('Hello World!')
+//   res.render('persoonlijk')
+// })
 
-app.get('/zakelijk', function (req, res) {
-  res.send('Hello World!')
-  res.render('zakelijk')
-})
+// app.get('/zakelijk', function (req, res) {
+//   res.send('Hello World!')
+//   res.render('zakelijk')
+// })
 
 // Stel het poortnummer in waar express op gaat luisteren
 app.set('port', process.env.PORT || 8001)
@@ -44,14 +44,5 @@ app.listen(app.get('port'), function () {
 })
 
 
-
-// EIGEN
-// let opacityInteractie = document.querySelector('a:nth-of-type(1)')
-
-// opacityInteractie.addEventListener('click', show)
-
-// function show(){
-//   opacityInteractie.classList.toggle('show')
-// }
 
 

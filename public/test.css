@@ -17,50 +17,40 @@ body {
     justify-content: center;
     align-items: center;
     perspective: 1000px;
+    background-color: rgb(245, 178, 212);
 }
 
 main{
-      width: 20em;
-      height: 30em;
-      background: #FFE9CE;
+      width: 30em;
+      height: 20em;
+      background: #ffffff;
       background-size: cover;
       position: relative;
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
       border-radius: 1rem;
-      border-color: #FFE9CE;
-      box-shadow: rgb(17 12 46 / 50%) 00px 10px 20px 0px    ;
-      z-index: 2;
-      transition: all 0.5s ease;
+      border-color: #f9d0ed;
+      box-shadow: rgba(255, 83, 166, 0.5)  0px 0px 15px 7px;
     }
 
     
 h1 {
-  color:#FFB5C2;
+  color:#ff0000;
   position:top;
   top:0rem;
   text-align: center;
   font-size: 1.2em;
   font-family:"inter";
-  padding-top: .5em;
 }
 
-header .title {
-    position: absolute;
-    bottom: 2rem;
-    left: 1rem;
+.name-and-avatar{
+  padding: 2em;
 }
 
-a:link{
-    text-decoration: none;
-}
-
-#about-me {
-    color:#3777FF;
-    text-align: left;
-    font-size: 1.5em;
-    font-family:"inter-bold";
+#avatar {
+  width: 10em;
+  height: 10em;
 }
 
 /* EIGEN ANIMATIES PER WOORD */
@@ -92,7 +82,13 @@ section img{
     margin-bottom: 0rem;
     width: 100%;  
     border-radius: 1rem;
-    margin-bottom: 20em;
+    /* margin-bottom: 20em; */
+}
+
+.fa-github{
+  color: #ff0000;
+  font-size: 1.5em;
+  padding-top: 1em;
 }
 
 style attribute {
