@@ -24,15 +24,15 @@ app.get('/test', function (req, res) {
   res.render('pages/test', data)
 })
 
-// app.get('/persoonlijke', function (req, res) {
-//   res.send('Hello World!')
-//   res.render('persoonlijk')
-// })
+app.get('/persoonlijke', function (req, res) {
+  res.send('Hello World!')
+  res.render('persoonlijk')
+})
 
-// app.get('/zakelijk', function (req, res) {
-//   res.send('Hello World!')
-//   res.render('zakelijk')
-// })
+app.get('/zakelijk', function (req, res) {
+  res.send('Hello World!')
+  res.render('zakelijk')
+})
 
 // Stel het poortnummer in waar express op gaat luisteren
 app.set('port', process.env.PORT || 8001)
