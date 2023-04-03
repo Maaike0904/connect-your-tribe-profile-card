@@ -28,7 +28,7 @@ Voor deze opdracht heb ik opnieuw een profile card gemaakt met Node.js, hierdoor
 * VS CODE
 
 ## 🌐 Cyclic.sh
-<br> :point_right: https://helpful-puce-shark.cyclic.app/
+:point_right: https://helpful-puce-shark.cyclic.app/
 
 ## 👾 Gebruik
 
