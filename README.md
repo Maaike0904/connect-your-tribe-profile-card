@@ -23,9 +23,12 @@ Voor deze opdracht heb ik opnieuw een profile card gemaakt met Node.js, hierdoor
 * Node js
 * JSON
 * CSS
+* Express
+* API
+* VS CODE
 
 ## 🌐 Cyclic.sh
-<br> :arrow-right: (https://helpful-puce-shark.cyclic.app/)
+<br> :point_right: https://helpful-puce-shark.cyclic.app/
 
 ## 👾 Gebruik
 
