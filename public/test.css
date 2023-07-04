@@ -5,7 +5,7 @@
   --cursorY: 50vh;
 }
 :root:before {
-  content: '';
+  content: "";
   display: block;
   width: 100%;
   height: 100%;
@@ -13,68 +13,66 @@
   pointer-events: none;
   background: radial-gradient(
     circle 10vmax at var(--cursorX) var(--cursorY),
-    rgba(0,0,0,0) 0%,
-    rgba(0,0,0,.5) 80%,
-    rgba(0,0,0,.80) 100%
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 80%,
+    rgba(0, 0, 0, 0.8) 100%
   );
   z-index: 1;
 }
 
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 html {
-  height:100vh;
+  height: 100vh;
   display: block;
-
 }
 
 body {
-    overflow-y: scroll;
-    min-width: 60em;
-    margin: 0 auto;
-    padding: 7rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    perspective: 1000px;
-    background-color: rgb(254, 217, 236);
+  overflow-y: scroll;
+  min-width: 60em;
+  margin: 0 auto;
+  padding: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  background-color: rgb(254, 217, 236);
 }
 
-main{
-      width: 30em;
-      height: 20em;
-      background: #ffffff;
-      background-size: cover;
-      position: relative;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      border-radius: 1rem;
-      border-color: #f9d0ed;
-      box-shadow: rgba(255, 83, 166, 0.5)  0px 0px 15px 7px;
-    }
+main {
+  width: 30em;
+  height: 20em;
+  background: #ffffff;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 1rem;
+  border-color: #f9d0ed;
+  box-shadow: rgba(255, 83, 166, 0.5) 0px 0px 15px 7px;
+}
 
-    
 h1 {
-  color:#ff0000;
-  position:top;
-  top:0rem;
+  color: #ff0000;
+  position: top;
+  top: 0rem;
   text-align: center;
   font-size: 1.5em;
-  font-family:"inter";
+  font-family: "inter";
   text-transform: uppercase;
   text-align: left;
 
-position: relative;
-overflow: hidden;
-background: linear-gradient(90deg, #ff0000, #ff7e7e, #ff0303);
-background-repeat: no-repeat;
-background-size: 80%;
-animation: animate 2s linear infinite;
--webkit-background-clip: text;
--webkit-text-fill-color: rgba(255, 255, 255, 0);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #ff0000, #ff7e7e, #ff0303);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 2s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 @keyframes animate {
@@ -86,64 +84,105 @@ animation: animate 2s linear infinite;
   }
 }
 
-p{
-  color:#ff0000;
-  font-size: .8em;
-  font-family:"inter";
+p {
+  color: #ff0000;
+  font-size: 0.8em;
+  font-family: "inter";
   text-align: left;
 }
 
-span{
-  color:#ff0000;
+span {
+  color: #ff0000;
   text-align: center;
   font-size: 1em;
-  font-family:"inter";
+  font-family: "inter";
 }
 
 #avatar {
-  padding:2em;
+  padding: 2em;
   width: 17em;
 }
 
-section img{
-  width: 100%;  
+section img {
+  width: 100%;
   border-radius: 1rem;
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 
-.fa-github{
+.fa-github {
   color: #ff0000;
   font-size: 1.2em;
 }
 
-.square{
+.square {
   border: 2px dotted #ffa3a3;
   border-radius: 10px;
-  padding:.5em;
+  padding: 0.5em;
   width: 140px;
 }
 
-.name-section{
+.name-section {
   padding: 1em;
 }
 
-button{
-  background-image: linear-gradient(to right, #D31027 0%, #e7727f  51%, #D31027  100%);
+button {
+  background-image: linear-gradient(
+    to right,
+    #d31027 0%,
+    #e7727f 51%,
+    #d31027 100%
+  );
   padding: 10px 15px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: white;
   border-radius: 10px;
   border-style: none;
-  margin-bottom: .6em;
+  margin-bottom: 0.6em;
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
   transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 20em;
+    flex-direction: column;
+    height: 80vh;
+    min-width: fit-content;
+  }
+
+  body {
+    min-width: fit-content;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+  :root:before {
+    content: unset;
+  }
+
+  #avatar {
+    padding-bottom: 0;
+  }
+
+  .square {
+    width: auto;
+    text-align: center;
+  }
+
+  .name-section {
+    padding: 4em;
+    padding-top: 0.5em;
+  }
 }
