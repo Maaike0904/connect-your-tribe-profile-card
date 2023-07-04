@@ -155,13 +155,13 @@ button:hover {
   main {
     width: 20em;
     flex-direction: column;
-    height: 73vh;
+    height: auto;
     min-width: fit-content;
   }
 
   body {
     min-width: fit-content;
-    padding: 2rem;
+    padding: 3rem;
   }
 
   h1 {
