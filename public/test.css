@@ -155,12 +155,13 @@ button:hover {
   main {
     width: 20em;
     flex-direction: column;
-    height: 80vh;
+    height: 73vh;
     min-width: fit-content;
   }
 
   body {
     min-width: fit-content;
+    padding: 2rem;
   }
 
   h1 {
@@ -182,7 +183,7 @@ button:hover {
   }
 
   .name-section {
-    padding: 4em;
+    padding: 2em;
     padding-top: 0.5em;
   }
 }
